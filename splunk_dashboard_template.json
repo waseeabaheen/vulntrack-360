@@ -1,0 +1,18 @@
+{
+  "title": "VulnTrack 360 (Starter)",
+  "description": "Starter dashboard template. Customize to your Splunk environment.",
+  "panels": [
+    {
+      "title": "Total Findings",
+      "search": "index=vuln sourcetype=vulntrack type=vuln_kpi | latest(total_findings)"
+    },
+    {
+      "title": "SLA Breach Rate",
+      "search": "index=vuln sourcetype=vulntrack type=vuln_kpi | latest(sla_breach_rate)"
+    },
+    {
+      "title": "Top CVEs",
+      "search": "index=vuln sourcetype=vulntrack type=vuln_finding cve!=\"\" | top limit=10 cve"
+    }
+  ]
+}

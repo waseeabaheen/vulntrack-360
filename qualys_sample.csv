@@ -1,0 +1,3 @@
+asset,ip,title,cves,severity,first_detected,last_detected,status
+web-01,10.0.1.10,OpenSSL outdated,CVE-2023-1234,4,2025-10-01,2025-10-10,Open
+db-01,10.0.2.20,Weak SSH ciphers,CVE-2022-9876,3,2025-09-15,2025-10-05,Fixed

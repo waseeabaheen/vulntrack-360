@@ -1,0 +1,5 @@
+cve,cis_control,cis_title
+CVE-2023-1234,CIS 7.1,Vulnerability Management
+CVE-2022-9876,CIS 4.8,Secure Configuration of Enterprise Assets
+CVE-2021-1111,CIS 13.6,Network Monitoring and Defense
+CVE-2021-2222,CIS 16.3,Application Security Testing
