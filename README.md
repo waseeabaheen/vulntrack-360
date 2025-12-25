@@ -67,5 +67,4 @@ curl -k https://<splunk-hec-host>:8088/services/collector \
 - Do not commit real customer scan exports.
 - Use redacted or synthetic data (like the samples in `data/sample/`).
 
-## License
-MIT
+
